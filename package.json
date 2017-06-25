@@ -1,0 +1,19 @@
+{
+  "name": "h1-speedy-push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=h1_server nodemon server.js"
+  },
+  "author": "Elmarini <eva@lunamarini.com> (https://github.com/elmarini)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "debug": "^2.6.8",
+    "nodemon": "^1.11.0"
+  }
+}
